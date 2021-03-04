@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="a.css">
+    <style>
+        h1{
+            /*주석 입니다. */
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <h2 style="color: red;">red!!</h2>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        #one{
+            color: red;
+        }
+        #two{
+            color: blue;
+        }
+        #three{
+            color: yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <a href="#one">one으로 가라</a>
+    <a href="#two">two으로 가라</a>
+    <a href="#three">three으로 가라</a>
+    <h1 id="one">hello</h1>
+    <p>hello</p>
+    /* p{hello}*10
+    <h1 id="two">hello</h1>
+    <p>hello</p>
+    <h1 id="three">hello</h1>
+    <p>hello</p>
+</body>
+</html>
