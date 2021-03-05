@@ -1,0 +1,77 @@
+   <title>Document</title>
+   <style>
+       p{
+           font-size: 50em;
+       }
+   </style>
+</head>
+<body>
+    <h1>고정 크기 단위</h1>
+    <p>px, pt, in, cm, mm</p> /*ex)5em = 500% */
+    <h1>가변 크기 단위</h1>
+    <p>em, %, rem</p>
+    <h1>hello</h1>
+    <h1>hello</h1>
+</body>
+</html>
+
+/*010 */
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        h1{
+            border: 1px solid black;
+            padding: 2px 10px 20px 40px;
+            margin: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello bong</h1>
+</body>
+</html>
+
+/*011 */
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Document</title>
+   <style>
+       .box{
+           background-color: blue;
+           width: 200px;
+           height: 200px;
+       }
+       .one{
+           opacity: 0.5;
+       }
+       .two{
+           opacity: 0.3;
+       }
+   </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box one"></div>
+    <div class="box two"></div>
+</body>
+</html>
+
+/*012 - 구글폰트 적용하기  */
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <style>
+        h1{
+            font-family: 'DotGothic16', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>hello word</h1>
+</body>
+</html>
