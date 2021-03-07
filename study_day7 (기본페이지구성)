@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <article class="page">
+        <header class="page-header">
+            <h1 class="page-title">페이지 제목</h1>
+            <nav class="global-menu">
+                <a href="#" class="global-menu-link">홈</a>
+                <a href="#" class="global-menu-link">소개</a>
+                <a href="#" class="global-menu-link">메뉴</a>
+                <a href="#" class="global-menu-link">커뮤니티</a>
+                <a href="#" class="global-menu-link">연락처</a>
+            </nav>
+        </header>
+        <div class="content-container">
+            <section class="content-selection">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci!
+                </p> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci!
+                </p> 
+            </section>
+        </div>
+        <footer class="page-footer">
+            <p class="copyright">2021 &copy; JDB</p>
+        </footer>
+    </article>
+</body>
+</html>
