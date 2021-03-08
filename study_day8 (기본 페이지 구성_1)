@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/01.css">
+</head>
+<body>
+    <article class="page">
+        <header class="page-header">
+            <h1 class="page-title">페이지 제목</h1>
+            <nav class="global-menu">
+                <a href="#" class="global-menu-link">홈</a>
+                <a href="#" class="global-menu-link">소개</a>
+                <a href="#" class="global-menu-link">메뉴</a>
+                <a href="#" class="global-menu-link">커뮤니티</a>
+                <a href="#" class="global-menu-link">연락처</a>
+            </nav>
+        </header> 
+        <div class="content-container">
+            <section class="content-section contect-section-a">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci!
+                </p> 
+            </section>
+            <section class="content-section contect-section-b">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci!
+                </p> 
+            </section>
+        </div>
+        <footer class="page-footer">
+            <p class="copyright">2021 &copy; JDB</p>
+        </footer>
+    </article>
+</body>
+</html>
+
+
+
+/* 01.CSS 추가 */
+.page-header {
+    display: block;
+    padding: 1em;
+    background: lightgray;
+}
+/* content-section은 공통이기때문에 하나의 헤더로 만들어주는게 효율적 */
+.content-section{
+    padding: 1em;
+}
+.contect-section-a {
+    background: lightgreen;
+}
+.contect-section-b {
+    background: lightseagreen;
+}
+.page-footer {
+    padding: 1em;
+    background: lightsteelblue;
+}
+.global-menu-link {
+    display: block;
+    margin-bottom: 5px;
+    background: gray;
+}
