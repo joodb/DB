@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Document</title>
-    <style> */rgb: 00(r)ff(g)00(b)
+    <style> /* rgb: 00(r)ff(g)00(b) */
         h1{
             color: #00ff00;
         }
