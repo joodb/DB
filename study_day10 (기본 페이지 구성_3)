@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/03.css">
+</head>
+<body>
+    <article class="page">
+        <header class="page-header">
+            <h1 class="page-title">페이지 제목</h1>
+            <nav class="global-menu">
+                <a href="#" class="global-menu-link">홈</a>
+                <a href="#" class="global-menu-link">소개</a>
+                <a href="#" class="global-menu-link">메뉴</a>
+                <a href="#" class="global-menu-link">커뮤니티</a>
+                <a href="#" class="global-menu-link">연락처</a>
+            </nav>
+        </header> 
+        <div class="content-container">
+            <section class="content-section content-section-a">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi 
+                </p> 
+            </section>
+            <section class="content-section content-section-b">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci! Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit  possimus magni sequi omnis id unde quos placeat obcaecati numquam distinctio iure atque sed rerum nemo, voluptates molestiae, quam quo! Adipisci!
+                </p> 
+            </section>
+            <div class="clear"></div>
+        </div>
+        <footer class="page-footer">
+            <p class="copyright">2021 &copy; JDB</p>
+        </footer>
+    </article>
+</body>
+</html>
+
+
+
+
+/* 03.css */
+.page-header {
+    display: block;
+    padding: 1em;
+    background: lightgray;
+}
+.content-container {
+    border: 10px solid black;
+}
+.content-container:after {
+    content: ''; /* 가상 element에 공백문자 넣어줌 */
+    clear: both;  
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.content-section {
+    /* right */
+    float: left;
+    padding: 1em;
+    font-size: 1rem; 
+}
+.content-section-a {
+    width: calc(30% - 2em);
+    background: lightgreen;
+}
+.content-section-b {
+    width: calc(70% - 2em);
+    background: lightseagreen;
+}
+.page-footer { /*clear: content section의 속성 해제 */
+    /* clear: left; */
+    padding: 1em;
+    background: lightsteelblue;
+}
+.global-menu-link {
+    display: block;
+    margin-bottom: 5px;
+    background: gray;
+}
+.clear {
+    clear: left;
+}
