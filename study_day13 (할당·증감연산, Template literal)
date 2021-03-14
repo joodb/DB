@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // 연산
+
+        var x,y,z;
+        x = 5;
+        y = 9;
+        y++; //10 변수 값에 1 더하기
+        x--; //4 변수 값에 1 빼기
+        --x; //3 변수 값에 1 빼기 (17에서 x값 4)
+        ++x; //4 변수 값에 1 더하기(18에서 x값 3)
+        x = x + 2; //6 x가 누적된 값으로 적용된 것
+        x += 2; //8 x 원래의 값으로 적용시
+
+        document.write(x, '<br>');
+        x *= 2; //16
+        document.write(x);
+
+        var name = 'jdb';
+        var age = 20;
+
+        document.write('my name is' + name + 'my age is' + age )
+        document.write(`my name is ${name}. my age is ${age+age}.`)
+        // 30에 ``를 써서 단순하고 직관적으로 만듬
+        // age는 숫자이기 때문에 연산가능 31에서 age+age는 40
+    </script>
+</body>
+</html>
