@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+       var x, y, Z;
+       x = 10;
+       y = 20;
+       Z = '10';
+
+       document.write(x > y, '<br>');
+       document.write(x < y, '<br>');
+       document.write(x >= y, '<br>');
+       document.write(x <= y, '<br>');
+
+       document.write(`x == z : ${x == Z} <br>`); 
+        //== (두 개가 같은가) type 상관 x 
+       document.write(`x === z : ${x === Z} <br>`);
+       //=== (두 개가 같은가) type 신경씀
+       document.write(`x != y : ${x != y} <br>`);
+        // != 두개가 같지않다 (O: true, X: false)
+       document.write(`x != 10 : ${x != 10} <br>`);
+        // x는 10과 같지 않다 false
+   </script> 
+</body>
+</html>
